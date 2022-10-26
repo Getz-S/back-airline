@@ -6,7 +6,7 @@
             "dateVuelo": "22-10-27",
             "timeVuelo": "8:00 am",
             "origen": "Cartagena",
-            "destino": "Medellín",
+            "destino": "Medellin",
             "info":{
                 "scales": false,
                 "duracion": "1h 30min",
@@ -38,7 +38,7 @@
             "code": "AV16545",
             "dateVuelo": "22-10-28",
             "timeVuelo": "11:00 am",
-            "origen": "Medellín",
+            "origen": "Medellin",
             "destino": "Cartagena",
             "info":{
                 "scales": false,
