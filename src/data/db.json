@@ -9,8 +9,8 @@
             "destino": "Medellin",
             "info":{
                 "scales": false,
-                "duracion": "1h 30min",
-                "precio": "100.000 COP"
+                "duracion": "1h 10min",
+                "precio": "200.000 COP"
             },
             "asientos":[
                 {
@@ -41,9 +41,9 @@
             "origen": "Medellin",
             "destino": "Cartagena",
             "info":{
-                "scales": false,
-                "duracion": "1h 30min",
-                "precio": "100.000 COP"
+                "scales": true,
+                "duracion": "2h 30min",
+                "precio": "190.000 COP"
             },
             "asientos":[
                 {
@@ -60,6 +60,72 @@
                     "id": 3,
                     "code": "B05",
                     "isOcupado": true
+                }
+            ]
+        },
+        {
+            "id":1,
+            "code": "AV16702",
+            "dateVuelo": "2022-10-27",
+            "timeVuelo": "4:00 pm",
+            "origen": "Cartagena",
+            "destino": "Medellin",
+            "info":{
+                "scales": false,
+                "duracion": "1h 30min",
+                "precio": "110.000 COP"
+            },
+            "asientos":[
+                {
+                    "id": 1,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
+                }
+            ]
+        },
+        {
+            "id":1,
+            "code": "AV17550",
+            "dateVuelo": "2022-10-28",
+            "timeVuelo": "5:00 am",
+            "origen": "Medellin",
+            "destino": "Cartagena",
+            "info":{
+                "scales": false,
+                "duracion": "2h 05min",
+                "precio": "150.000 COP"
+            },
+            "asientos":[
+                {
+                    "id": 1,
+                    "code": "A01",
+                    "isOcupado": true,
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "code": "B01",
+                    "isOcupado": false,
+                    "userId": null
+                },
+                {
+                    "id": 3,
+                    "code": "B05",
+                    "isOcupado": true,
+                    "userId": 2
                 }
             ]
         }
